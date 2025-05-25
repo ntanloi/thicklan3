@@ -3,6 +3,7 @@ import { Provider } from 'react-redux'
 import store from './store'
 import ProductList from './features/products/ProductList'
 import { BrowserRouter } from 'react-router-dom'
+import Home from './pages/Home'
 
 function App() {
   
@@ -10,7 +11,7 @@ function App() {
   return (
     <Provider store={store}>
       <BrowserRouter>
-        <ProductList/>
+        <Home/>
       </BrowserRouter>
     </Provider>
   )

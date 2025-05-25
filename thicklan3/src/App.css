@@ -40,3 +40,94 @@
 .read-the-docs {
   color: #888;
 } */
+
+
+/* Product Card */
+.product-card {
+  border: 1px solid rgba(0, 0, 0, 0.164);
+  border-radius: 0.75rem;
+  overflow: hidden;
+}
+
+.product-content {
+  margin-left: 1rem;
+}
+
+.product-images img {
+  width: 13rem;
+  height: 15rem; 
+}
+
+.product-title {
+  font-weight: bold;
+}
+
+.product-description {
+  font-size: 0.7rem;
+}
+
+.product-price {
+  color: blue;
+}
+
+
+.product-action{
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn {
+  padding: 0.5rem;
+  border-radius: 0.8rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: blue;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: blue;
+}
+
+.btn-red {
+  background-color: red;
+}
+
+.btn-red:hover {
+  background-color: white;
+  color: red;
+}
+
+.btn-green {
+  background-color: green;
+}
+
+.btn-green:hover {
+  background-color: white;
+  color: green;
+}
+
+/* ProductList */
+
+.product-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Home */
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
