@@ -131,3 +131,57 @@
   font-size: 2rem;
   font-weight: bold;
 }
+
+/* ProductDetail */
+
+.card-body{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.card-image img{
+  width: 15rem;
+  height: 10rem;
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+/* add */
+.add-product-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.form {
+  justify-content: center;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+}
+
+.form-group select {
+  height: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.button-group {
+  margin-top: 1rem;
+}
+
+.image-box img{
+  height: 10rem;
+  width: 10rem;
+}
